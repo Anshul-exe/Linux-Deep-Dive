@@ -16,10 +16,6 @@ _*2. webserver ka port kisi aur process ne le liya hoga*_
 - if the server is reachable then I can use `netstat -tuln` which will show me all the listening ports on the server. and then I can specify the port where webserver is hosted by `grep`ing the port id as there's a chance that the webserver port is getting by another process
 - now I can kill that process and access the webserver.
 
-> [!CASE]
-> Identify connections on a given port or IP
-> `bash netstat -putan | grep <Port/IP>`
-
 > [!NOTE]
-> Identify connections on a given port or IP
+> Identify connections on a given port or IP by using
 > `bash netstat -putan | grep <Port/IP>`
