@@ -9,8 +9,8 @@
 - Multicast memberships (group communication in networks).
 
 For example I want to access a webserver but it isn't working coz...
-_*1. Webserver may be down or is listening on a different port*_
-_*2. webserver ka port kisi aur process ne le liya hoga*_
+**1. Webserver may be down or is listening on a different port**
+**2. webserver ka port kisi aur process ne le liya hoga**
 
 - first I can `ping` and see if the server is reachable.
 - if the server is reachable then I can use `netstat -tuln` which will show me all the listening ports on the server. and then I can specify the port where webserver is hosted by `grep`ing the port id as there's a chance that the webserver port is getting by another process
