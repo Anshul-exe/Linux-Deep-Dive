@@ -23,7 +23,7 @@ For example I want to access a webserver but it isn't working coz...
 >
 > flags:
 >
-> - `-p` - process
+> - `-p` - PID/process
 > - `-u` - udp
 > - `-t` - tcp
 > - `-a` - all
