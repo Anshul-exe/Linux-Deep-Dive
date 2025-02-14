@@ -2,8 +2,9 @@
 
 ## Beginner Level
 
-- **Q1. How to check file permsissions in Linux?**
-  A1. Use `ls -l` or `getfacl <file>`
+#### **Q1. How to check file permsissions in Linux?**
+
+- A1. Use `ls -l` or `getfacl <file>`
 
 - **Q2. How to view the history of used commands?**
   A2. Use `history` command
