@@ -1,7 +1,5 @@
 # Linux Questions for Job Interview
 
----
-
 ## Beginner Level
 
 #### **Q1. How to check file permsissions in Linux?**
