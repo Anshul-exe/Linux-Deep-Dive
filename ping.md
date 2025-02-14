@@ -10,7 +10,7 @@ It stands for _Packet Internet Groper_. It is a network administration utility u
 - Check Latency on network
 - DNS Resolution
 
-Example usage:
+Example Output:
 
 ```bash ping arch.org
 PING arch.org (104.196.168.51) 56(84) bytes of data.

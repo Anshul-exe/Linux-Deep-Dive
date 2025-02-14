@@ -20,3 +20,61 @@ For example I want to access a webserver but it isn't working coz...
 > [!NOTE]
 > Identify connections on a given port or IP by using
 > `bash netstat -putan | grep <Port/IP>`
+>
+> flags:
+>
+> - `-p` - process
+> - `-u` - udp
+> - `-t` - tcp
+> - `-a` - all
+> - `-n` - numeric
+> - `-l` - listening
+
+Example Output:
+
+## Active Internet Connections meaning the connections that are from the outside of the server on internet level **Most work is done in this part**
+
+```bash netstat
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State
+tcp        0      0 ARCH:44416              ns5022367.ip-1:www-http TIME_WAIT
+tcp        0      0 ARCH:33336              202.241.199.104.b:tripe ESTABLISHED
+tcp        0      0 ARCH:59136              ns5022367.ip-1:www-http TIME_WAIT
+```
+
+## Active UNIX domain sockets meaning the connections that are from the inside of the server on system level
+
+```bash Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  3      [ ]         STREAM     CONNECTED     1297943
+unix  3      [ ]         STREAM     CONNECTED     457083
+unix  3      [ ]         STREAM     CONNECTED     666      /run/systemd/journal/stdout
+```
+
+## Difference Between TCP and UDP
+
+### 1. What is TCP?
+
+**TCP (Transmission Control Protocol)** is a connection-based protocol that ensures data is sent and received correctly. It is reliable and used when accuracy is important.
+
+---
+
+### 2. What is UDP?
+
+**UDP (User Datagram Protocol)** is a connectionless protocol that sends data without checking if it arrives correctly. It is used when speed is more important than reliability.
+
+---
+
+#### Simple Analogy:
+
+- **TCP** is like sending a certified letter: You get a confirmation when it's delivered.
+- **UDP** is like sending a postcard: It may arrive, but there's no guarantee.
+
+### Key Differences Between TCP and UDP
+
+| Feature     | TCP                                   | UDP                            |
+| ----------- | ------------------------------------- | ------------------------------ |
+| Connection  | Connection-oriented                   | Connectionless                 |
+| Reliability | High (error checking, retransmission) | Low (no guarantee of delivery) |
+| Speed       | Slower due to reliability checks      | Faster, but data may be lost   |
+| Use Case    | Web browsing, file transfers, emails  | Streaming, gaming, voice calls |
