@@ -47,3 +47,7 @@
 #### **Q11. What is kernal?**
 
 - A10. The Linux kernel is the main component of a Linux OS and is the core interface between a computer’s hardware and its processes.
+
+#### **Q12. What is swap space in Linux?**
+
+- A12. When RAM is full of processes and the system needs more memory then some of the inactive processess/pages/datas are moved to swap space. It is a part of hard disk.
