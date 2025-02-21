@@ -37,3 +37,13 @@
 #### **Q9. How to check open port on Linux system?**
 
 - _A9._ Use `netstat -tulnp` to check open ports on Linux system. like `netstat putan | grep port_no`
+
+#### **Q10. What does RHEL stands for?**
+
+- A9. Red Hat Enterprise Linux
+
+## Intermediate Level
+
+#### **Q11. What is kernal?**
+
+- A10. The Linux kernel is the main component of a Linux OS and is the core interface between a computer’s hardware and its processes.
