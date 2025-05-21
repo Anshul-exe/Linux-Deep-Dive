@@ -23,7 +23,7 @@ PING arch.org (104.196.168.51) 56(84) bytes of data.
 rtt min/avg/max/mdev = 266.757/286.797/325.615/27.453 ms
 ```
 
-- icmp = Internet Control Message Protocol
+- ICMP = Internet Control Message Protocol
 
 > **1. 64 bytes**
 >
