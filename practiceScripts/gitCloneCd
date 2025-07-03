@@ -1,1 +1,8 @@
 #!/usr/bin/env bash
+
+git clone "$1"
+dir="$(basename "$1" .git)"
+echo "$dir"
+cd "$dir"
+
+# if [[ "$1" != ]]
