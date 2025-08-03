@@ -51,3 +51,7 @@
 #### **Q12. What is swap space in Linux?**
 
 - A12. When RAM is full of processes and the system needs more memory then some of the inactive processess/pages/datas are moved to swap space. It is a part of hard disk.
+
+#### Q13. What is the use of /etc/shadow file
+
+- A13. The /etc/shadow file stores actual password data in an encrypted format for user’s accounts with additional properties related to user password.
