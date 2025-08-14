@@ -3,3 +3,6 @@
 - `-ne` `-eq` `-lt` `-gt` `-le` `-ge` used for "not equal", "equal", "less than", "greater than", "less than or equal to", "greater than or equal to" respectively.
 - `&&` is used for logical AND, `||` for logical OR.
 - `&&` or `-a` both are used for and condition, `||` or `-o` for or condition.
+- `1>file.txt` in this cmd, 1 means stdout, `2>file.txt` means stderr.
+- pipe vale me phle `./pipeThroughScript.sh` ko run krna hai taki msg export hojae
+- `/<` checks if string's length is less then and `/>` checks if string's length is greater then.
