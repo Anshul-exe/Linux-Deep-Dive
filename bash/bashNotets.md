@@ -1,0 +1,5 @@
+- To comment: # at the beginning of the line
+- For multiple line comments: " : ' <text> ' "
+- `-ne` `-eq` `-lt` `-gt` `-le` `-ge` used for "not equal", "equal", "less than", "greater than", "less than or equal to", "greater than or equal to" respectively.
+- `&&` is used for logical AND, `||` for logical OR.
+- `&&` or `-a` both are used for and condition, `||` or `-o` for or condition.
